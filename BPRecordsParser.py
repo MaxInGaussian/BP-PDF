@@ -12,22 +12,28 @@ def extract_bp_records(filepath):
     for page in result:
         for line in page:
             full_str = ''.join(line).lower()
-            if('id' in full_str and 'date' in full_str and patient_id is None):
+            print(full_str)
+            if('patient id' in full_str and 'date' in full_str and patient_id is None):
                 ind1 = full_str.index('id')
-                while(full_str[ind1].isalpha() == False):
+                while(full_str[ind1].isalpha() == False): #never entered (?)
                     ind1 += 1
+                    print('ind1 : ',ind1,' ',full_str[ind1])
                 ind2 = full_str.index('date')
-                print(ind2-ind1)
-                if(ind2-ind1 == 11):
-                    patient_id = full_str[ind1+2:ind2].upper()
+                print('ind2 : ',ind2,' ',full_str[ind2])
+                print('ind2-ind1 : ',ind2-ind1)
+                if(ind2-ind1 == 14): # look for perfect line
+                    if(full_str[ind1+2:ind2].isalpha()==True):
+                        patient_id = full_str[ind1+2:ind2].upper()
+                        print('patient_id :',full_str[ind1+2:ind2])
             if('female' in full_str):
                 gender = 'F'
-            if('birth' in full_str and '/' in full_str and date_str is None):
+            if('birth' in full_str and '/' in full_str and date_str is None): # tries first page only
                 ind1 = full_str.index('/')
                 ind2 = full_str[ind1+1:].index('/')
                 ind3 = full_str[ind2+1:].index('/')
                 date_str = full_str[ind1-4:ind3-4]
-    print(patient_id, gender, date_str)
+                print('date_str : ',date_str)
+    #print(patient_id, gender, date_str)
     for page in result:
         for line in page:
             f_line = []
