@@ -1,0 +1,711 @@
+
+Kernel process terminated for restart. (0)
+
+Python 3.6.1 |Anaconda 4.4.0 (64-bit)| (default, May 11 2017, 13:25:24) on Windows (64 bits).
+This is the Pyzo interpreter with integrated event loop for PYQT5.
+
+Using IPython 5.3.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+Running script: "C:\Users\Kenneth\Desktop\BDDA\MAX\BPRecordsParser.py"
+patient name:to muiquachapneabp report
+patient id: glyh1518838wstart of the examination
+date ofbirth:1947/9/132017/4/19
+meditech kft.
+4/f, cuhk jc cmmunity primary care programme
+lek yuen health centre, 9 lek yuen street, shatin.
+tel:22528462
+patient data
+nameto muiquach
+idglyh1518838wdate of birth1947/9/13
+mother name
+birthplacesexfemale
+bloodpressure list
+timetsbpdbppulsespo2rtarplremark
+mmhgmmhgbpm%ms%ms
+09:27e
+09:32e
+10:00a1424977
+10:30a1325585
+11:00a1315084
+11:30a1334977
+12:00a1294575
+13:00a1304676
+13:30a1344976
+14:00a1314673
+14:30a1545281
+15:00a1475967
+15:30a1515768
+16:00a1375862
+16:30a1485767
+17:00a1425170
+17:30a1354972
+18:00a1324966
+18:30a1475073
+19:00a1374971
+19:30a1495875
+20:00a1505479
+20:30a1335369
+21:00a1505578
+21:30a1254274
+22:00e
+22:00a1264573
+22:30a1194377
+23:00a1294973
+23:30a1305069
+00:00a1214863
+00:30a1244863
+01:00a1335266
+01:30a1305166
+02:00a1073865
+02:30a1305266
+03:00a1445977
+03:30a1285265
+04:00a1134465
+04:30a1335159
+05:00a1586363
+05:30a1455764
+06:00e
+
+meditecardiovichsionscreated 2017/4/19 page: 1 total: 7 pages
+1.22.5
+
+
+
+patient npatient iamed: g: to mui lyh15188quach38wapneabp reportstart of the examination
+date ofbirth:1947/9/132017/4/19
+bloodpressure list
+timetsbpdbpspo2rtarplremarkpulse
+mmhgmmhg%ms%msbpm
+06:00a1385469
+06:30a1505861
+07:00a1536567
+07:30a1465269
+08:00a1254968
+08:30a1355278
+09:00a1335080
+09:30a1194481
+10:00a1205082
+10:30a1304582
+11:00a1345088
+11:30a1334584
+12:00a1355086
+12:30a1294779
+13:00a1345183
+14:00a1385076
+14:30a1455969
+15:00a1566671
+15:30a1556369
+16:00a1616765
+16:30a1687067
+17:00a1656864
+17:30a1406572
+18:00a1506368
+18:30a1576375
+19:00a1595881
+19:30a1816176
+20:00a1505074
+20:30a1465175
+21:00a1616075
+21:30a1294577
+22:00e
+22:00a1374781
+22:30a1304775
+23:00a1394979
+23:30a1144467
+00:00a1234661
+00:30a1234760
+01:00a1255466
+01:30a1365267
+02:00a1084556
+02:30a1395160
+03:00a1365565
+03:30a1275155
+04:00a1485657
+04:30a1746777
+05:00a1375361
+05:30a1455562
+06:00e
+06:00a1405361
+06:30a1294861
+07:00a1526167
+07:30a1505175
+08:30a1184881
+
+meditecardiovichsionscreated 2017/4/19 page: 2 total: 7 pages
+1.22.5
+
+
+
+patient name: to mui quachapneabp report
+patient id: glyh151883date of birth: 1947/9/138wstart of the examination2017/4/19
+blood pressure list
+timetsbpdbppulsespo2rtarplremark
+mmhgmmhgbpm%ms%ms
+09:00a1275893
+09:30a1394780
+09:33e
+blood pressure chart
+bp [mmhg]pulse[bpm]
+200eeeeeee200
+150150
+100100
+5050
+1010
+09:0017:0001:0009:0017:0001:0009:00
+2017/4/19time[hour]
+overall  sbp,dbpoverallmap,pulse
+sbpr=89%  a=2.1mapr=0%  a=1.0
+250250
+200200
+150150
+100100
+5050
+00
+050100150200250050100150200250
+dbppulse
+overall  sbpoverall  dbpoverall  pulse
+%%%
+20403030
+20
+10201010
+0mm0hgmmhg0
+1001505010050100
+
+blood pressure chart
+
+
+
+meditechcreated 2017/4/19
+cardiovisions1.22.5page: 3 total: 7 pages
+
+patient name: to mui quachapneabp report
+patient id: glyh1518838wdate of birth: 1947/9/13start of the examination2017/4/19
+blood pressure chart
+bp [mmhg]pulse [bpm]
+200eeeee200ee
+150150
+100100
+5050
+1010
+09:0017:0001:0009:0017:0001:0009:00
+2017/4/19time [hour]
+abpm basic data  (2017/4/20 ¤w¤č09:30 - 2017/4/21 ¤w¤č 09:30)
+periodoverallmorningdaynight
+time rangeoverall06:00 - 06:0006:00 - 22:0022:00 - 06:00
+sbp/dbp maximum limit value~127/77~-/-135/85120/70
+sbp/dbp weighted average140/54-/-144/55133/51
+pulse weighted average72-7665
+readings47-3116
+successful measurement ratio%100-100100
+sbp/dbp d/n index %7/7
+morning surge15
+hypertension summary  (2017/4/20¤w¤č 09:30- 2017/4/21 ¤w¤č09:30)
+periodoverallmorningdaynight
+time rangeoverall06:00 - 06:0006:00 - 22:0022:00 - 06:00
+sbp/dbp maximum limit value~127/77~-/-135/85120/70
+sbp/dbp weighted average140/54-/-144/55133/51
+map weighted average83-8579
+pp weighted average86-8982
+pulse weighted average72-7665
+sbp/dbp pte %70/0-/-61/087/0
+sbp/dbp load mmhg297/0-/-273/0349/0
+readings47-3116
+sbp high readings33-1914
+dbp high readings0-00
+sbp/dbp d/n index %7/7
+sbp/dbp d/n mean difference10/4
+morning surge15
+blood pressure list
+timetsbpdbppulsespo2rtarplremark
+mmhgmmhgbpm%ms%ms
+09:27e
+09:32e
+142 49 7710:00a
+132 55 8510:30a
+131 50 8411:00a
+133 49 7711:30a
+129 45 7512:00a
+
+
+meditechcardiovisionscreated 2017/4/19page: 4 total: 7 pages
+1.22.5
+
+
+patient npatient iamed: g: to mui lyh15188quach38wapneabp reportstart of the examination
+date ofbirth:1947/9/132017/4/19
+bloodpressure list
+timetsbpdbpspo2rtarplremarkpulse
+mmhgmmhg%ms%msbpm
+13:00a1304676
+13:30a1344976
+14:00a1314673
+14:30a1545281
+15:00a1475967
+15:30a1515768
+16:00a1375862
+16:30a1485767
+17:00a1425170
+17:30a1354972
+18:00a1324966
+18:30a1475073
+19:00a1374971
+19:30a1495875
+20:00a1505479
+20:30a1335369
+21:00a1505578
+21:30a1254274
+22:00e
+22:00a1264573
+22:30a1194377
+23:00a1294973
+23:30a1305069
+00:00a1214863
+00:30a1244863
+01:00a1335266
+01:30a1305166
+02:00a1073865
+02:30a1305266
+03:00a1445977
+03:30a1285265
+04:00a1134465
+04:30a1335159
+05:00a1586363
+05:30a1455764
+06:00e
+06:00a1385469
+06:30a1505861
+07:00a1536567
+07:30a1465269
+08:00a1254968
+08:30a1355278
+09:00a1335080
+09:30a1194481
+10:00a1205082
+10:30a1304582
+11:00a1345088
+11:30a1334584
+12:00a1355086
+12:30a1294779
+13:00a1345183
+14:00a1385076
+14:30a1455969
+15:00a1566671
+
+meditecardiovichsionscreated 2017/4/19 page: 5 total: 7 pages
+1.22.5
+
+
+
+patient npatient iamed: g: to mui lyh15188quach38wapneabp reportstart of the examination
+date ofbirth:1947/9/132017/4/19
+bloodpressure list
+timetsbpdbpspo2rtarplremarkpulse
+mmhgmmhg%ms%msbpm
+15:30a1556369
+16:00a1616765
+16:30a1687067
+17:00a1656864
+17:30a1406572
+18:00a1506368
+18:30a1576375
+19:00a1595881
+19:30a1816176
+20:00a1505074
+20:30a1465175
+21:00a1616075
+21:30a1294577
+22:00e
+22:00a1374781
+22:30a1304775
+23:00a1394979
+23:30a1144467
+00:00a1234661
+00:30a1234760
+01:00a1255466
+01:30a1365267
+02:00a1084556
+02:30a1395160
+03:00a1365565
+03:30a1275155
+04:00a1485657
+04:30a1746777
+05:00a1375361
+05:30a1455562
+06:00e
+06:00a1405361
+06:30a1294861
+07:00a1526167
+07:30a1505175
+08:30a1184881
+09:00a1275893
+09:30a1394780
+09:33e
+
+bloodpressure chart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+meditechcreated 2017/4/19
+cardiovi1.22.5sionspage: 6 total: 7 pages
+
+
+
+patient name: tomui quachapneabp report
+patient id: glyh1date of birth: 1947518838w/9/13start of the examination2017/4/19
+blood pressure chart
+bp [mmhg]pulse[bpm]
+200eeeeeee200
+150150
+100100
+5050
+1010
+09:0017:0001:0009:0017:0001:0009:00
+2017/4/19time[hour]
+overall  sbp,dbpoverallmap,pulse
+sbpr=89%  a=2.1mapr=0%  a=1.0
+250250
+200200
+150150
+100100
+5050
+00
+050100150200250050100150200250
+dbppulse
+overall  sbpoverall  dbpoverall  pulse
+%%%
+20403030
+20
+10201010
+00mmhgmmhg0
+1001505010050100
+
+
+
+
+
+
+
+
+
+
+meditechcardiovisionscreated 2017/4/19page: 7 total: 7 pages
+1.22.5
+
+patient name: chung tim tangapneabp report
+patient id: glyh1621685vstart of the examination
+date of birth: 1942/10/152017/4/19
+meditech kft.
+4/f, cuhk jc cmmunity primary care programme
+lek yuen healthcentre, 9 lekyuen street, shatin.
+tel:22528462
+patient data
+namechung tim tang
+idglyh1621685vdate of birth1942/10/15
+mother name
+birth placesexmale
+blood pressure chart
+bp [mmhg]pulse [bpm]
+210eeeeee210e
+150150
+100100
+5050
+2020
+11:0019:0003:0011:0019:0003:0011:00
+2017/4/19time [hour]
+abpm basic data  (2017/4/20 ¤w¤č11:00 - 2017/4/21 ¤w¤č 11:00)
+periodoverallmorningdaynight
+time rangeoverall06:00 - 06:0006:00 - 22:0022:00 - 06:00
+sbp/dbp maximum limit value~127/77~-/-135/85120/70
+sbp/dbp weighted average133/68-/-137/71124/63
+pulse weighted average76-8068
+readings48-3216
+successful measurement ratio%100-100100
+sbp/dbp d/n index %10/11
+morning surge11
+hypertension summary  (2017/4/20¤w¤č 11:00- 2017/4/21 ¤w¤č11:00)
+periodoverallmorningdaynight
+time rangeoverall06:00 - 06:0006:00 - 22:0022:00 - 06:00
+sbp/dbp maximum limit value~127/77~-/-135/85120/70
+sbp/dbp weighted average133/68-/-137/71124/63
+map weighted average90-9383
+pp weighted average65-6661
+pulse weighted average76-8068
+sbp/dbp pte %55/8-/-55/657/10
+sbp/dbp load mmhg154/9-/-159/8133/10
+readings48-3216
+sbp high readings26-179
+dbp high readings4-22
+sbp/dbp d/n index %10/11
+sbp/dbp d/n mean difference13/8
+morning surge11
+meditechcardiovisionscreated 2017/4/19page: 1 total: 5 pages
+1.22.5
+
+patient name: chung tim tangpatient id: glyh1621685vstaapneabp reportrt of the examination
+date of birth: 1942/10/152017/4/19
+hypotension summary  (2017/4/20 ¤w¤č 11:00 - 2017/4/21 ¤w¤č 11:00)
+periodoverallmorningdaynight
+time rangeoverall06:00 - 06:0006:00 - 22:0022:00 - 06:00
+sbp/dbp minimum limit value~90/60~-/-100/6580/55
+sbp/dbp weighted average133/68-/-137/71124/63
+readings48-3216
+sbp low readings0-00
+dbp low readings7-52
+sbp/dbp ptd %0/14-/-0/150/13
+sbp/dbp leese mmhg0/26-/-0/360/8
+systolic blood pressure  (2017/4/20 ¤w¤č 11:00 - 2017/4/21 ¤w¤č 11:00)
+periodoverallmorningdaynight
+time rangeoverall06:00 - 06:0006:00 - 22:0022:00 - 06:00
+readings48-3216
+sbp maximum limit value~127~-135120
+sbp weighted average133-137124
+sbp standard deviation16-179
+sbp maximum189-189142
+sbp high readings26-179
+sbp pte %55-5557
+sbp load mmhg154-159133
+sbp minimum limit value~90~-10080
+sbp minimum106-106112
+sbp low readings0-00
+sbp ptd %0-00
+sbp leese mmhg0-00
+sbp d/n index %10-1010
+sbp d/n mean difference13-1313
+overall  sbp,dbpoverall  map,pulse
+sbpr=86%  a=1.6mapr=76%a=1.0
+250250
+200200
+150150
+100100
+5050
+00
+050100150200250050100150200250
+dbppulse
+
+
+
+
+
+
+
+
+
+
+meditechcreated 2017/4/19
+cardiovisions1.22.5page: 2 total: 5 pages
+
+
+patient name: chung tim tangapneabp report
+patient id: glyh1621685vstart of the examination
+date ofbirth:1942/10/152017/4/19
+overall  sbpoverall  dbpoverall  pulse
+%%%
+4040
+30
+203030
+2020
+101010
+
+0m0mhg0mmhg
+1001505010050100150
+bloodpressure list
+timetsbpdbppulsespo2rtarplremark
+mmhgmmhgbpm%ms%ms
+11:25e
+11:29e
+11:30a1478786
+12:30a1437692
+13:00a1439385
+13:30a1347893
+14:00a1467887
+14:30a1236688
+15:00a1276374
+15:30a1145170
+16:00a1317285
+16:30a1396684
+17:00a1397177
+17:30a1366379
+18:00a1267280
+18:30a1608784
+19:00a1306772
+19:30a1336878
+20:00a1247081
+20:30a1356975
+21:00a1507077
+21:30a1456476
+22:00e
+22:00a1396277
+22:30a1377073
+23:00a1557487
+23:30a1286770
+00:00a1266870
+00:30a1455276
+01:00a1336770
+01:30a1185876
+02:00a1488082
+02:30a1336874
+03:00a1317273
+03:30a1306583
+04:00a1176673
+04:30a1246268
+05:00a1507263
+05:30a1195871
+06:00e
+06:00a1175773
+
+
+meditecardiovichsionscreated 2017/4/19 page: 3 total: 5 pages
+1.22.5
+
+
+patient npatient iamed: g: chung lyh16216tim tang85vapneabp reportstart of the examination
+date ofbirth:1942/10/152017/4/19
+bloodpressure list
+timetsbpdbpspo2rtarplremarkpulse
+mmhgmmhg%ms%msbpm
+06:30a1437882
+07:00a1447180
+07:30a1487584
+08:00a1467489
+08:30a1306693
+09:00a1316686
+09:30a1276576
+10:00a1306890
+10:30a1427582
+11:00a1377986
+11:30a1417978
+12:00a1356888
+12:30a1436888
+13:00a1196783
+13:30a1386776
+14:00a1898894
+14:30a1486679
+15:00a1356771
+15:30a1396871
+16:00a1436870
+16:30a1507472
+17:00a1367771
+17:30a1327273
+18:00a1166172
+18:30a1497379
+19:00a1217288
+19:30a1367176
+20:00a1266781
+20:30a1336972
+21:00a1174970
+21:30a1346668
+22:00e
+22:00a1427272
+22:30a1265864
+23:00a1296668
+23:30a1266467
+00:00a1326772
+00:30a1146065
+01:00a1125466
+01:30a1316767
+02:00a1257571
+02:30a1366970
+03:00a1146468
+03:30a1276662
+04:00a1145165
+04:30a1205666
+05:00a1206072
+05:30a1185571
+06:00e
+06:00a1518595
+06:30a1216964
+07:00a1065166
+07:30a1307172
+08:00a1467894
+
+meditecardiovichsionscreated 2017/4/19 page: 4 total: 5 pages
+1.22.5
+
+
+
+patient name: chungtim tangapneabp report
+patient id: glyh1621685vstart of the examination
+date ofbirth:1942/10/152017/4/19
+bloodpressure list
+timetsbpdbpspo2rtarplremarkpulse
+mmhgmmhg%ms%msbpm
+09:00a1368194
+09:30a1368491
+10:00a18692108
+10:30a1255389
+11:00a1316388
+11:30e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+meditechcreated 2017/4/19
+cardiovi1.22.5sionspage: 5 total: 5 pages
+
+
+
+
+In [1]: 
