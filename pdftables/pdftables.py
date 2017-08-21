@@ -236,7 +236,8 @@ def comb_from_projection(projection, threshold, orientation):
     # lowers = [k for k, v in yhistbottom.items() if v > yThreshold]
     uppers = []
     lowers = []
-
+    if(len(projection_threshold) == 0):
+        return []
     lowers.append(projection_threshold[0])
     for i in range(1, len(projection_threshold)):
         if projection_threshold[i] > (
@@ -522,6 +523,9 @@ def page_to_tables(page, extend_y=False, hints=[], atomise=False):
 
     # columnThreshold = max(len(y_comb)*0.75,5)
     x_comb = comb_from_projection(column_projection, columnThreshold, "column")
+    
+    if(len(x_comb) == 0):
+        return [], []
 
     x_comb[0] = minx
     x_comb[-1] = maxx
