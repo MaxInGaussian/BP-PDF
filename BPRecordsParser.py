@@ -123,7 +123,7 @@ if(not regenerate):
             if(csv_filename[:-4]+'.pdf' in filenames):
                 filenames.remove(csv_filename[:-4]+'.pdf')
 for pdf_path in sorted(pdf_paths):
-    if('008' not in pdf_path):
+    if('040' not in pdf_path):
         continue
     path = 'PDF/'+pdf_path
     extract_bp_records(path).to_csv('CSV/'+pdf_path[:-4]+'.csv')
