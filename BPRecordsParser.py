@@ -23,7 +23,7 @@ def extract_bp_records(filepath):
                     patient_id = lower_str[ind1+4:ind2].upper()
             if('female' in lower_str):
                 gender = 'F'
-            if('date of birth' in full_str and '/' in lower_str): 
+            if('date of birth' in full_str and '/' in lower_str):
                 ind1 = lower_str.index('/')# in all cases, '/' apears after DOB
                 ind2 = lower_str[ind1+1:].index('/')
                 if not(any(c.isalpha() for c in lower_str[ind1-4:ind1+ind2+4])):
@@ -113,6 +113,7 @@ def extract_sleep_records(filepath):
     df = df.drop_duplicates().set_index(['File Name'])
     return df
 
+
 regenerate = False
 pdf_paths = []
 for (dirpath, dirnames, filenames) in walk('PDF'):
@@ -122,8 +123,16 @@ if(not regenerate):
         for csv_filename in csv_filenames:
             if(csv_filename[:-4]+'.pdf' in filenames):
                 filenames.remove(csv_filename[:-4]+'.pdf')
+
+import argparse
+
+
+parser = argparse.ArgumentParser(description='')
+parser.add_argument('-n', '--name', type=str, default='.pdf')
+params = parser.parse_args()
+
 for pdf_path in sorted(pdf_paths):
-    if('008' not in pdf_path):
+    if(params.name not in pdf_path):
         continue
     path = 'PDF/'+pdf_path
     extract_bp_records(path).to_csv('CSV/'+pdf_path[:-4]+'.csv')
