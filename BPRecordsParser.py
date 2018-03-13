@@ -126,7 +126,6 @@ if(not regenerate):
 
 import argparse
 
-
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('-n', '--name', type=str, default='.pdf')
 params = parser.parse_args()
